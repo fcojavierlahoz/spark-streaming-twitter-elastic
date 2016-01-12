@@ -1,7 +1,7 @@
 # Spark Streaming application processing tweets with sentiment analysis stored in Elasticsearch
 ## Autor: Fco. Javier Lahoz Sevilla
 ## Description:
-## Spark Streaming application for process tweets and store it into Elasticseach. The application got the following information:
+### Spark Streaming application for process tweets and store it into Elasticseach. The application got the following information:
 ##### Sentiment Analysis
 ##### Hashtags
 ##### Followers
@@ -16,6 +16,7 @@
 ## To runnig it:
 ###### - First assembly the application: sbt/sbt assembly
 ###### - Start Hadoop, Elasticsearch, kibana
+###### - put data/words/* into HDFS in the same directory (data/words)
 ###### - Create index in Elastic changed yyyy-mm-dd for current date:
 curl -XPUT 'http://localhost:9200/twitter-yyyy.mm.dd' -d '
 {
@@ -36,7 +37,7 @@ curl -XPUT 'http://localhost:9200/twitter-yyyy.mm.dd' -d '
     }
 }
 '
-##### - Start the application replaced Twitter credentials in script: <br> start_app.sh
-##
+##### - Start the application replaced Twitter credentials in script: start_app.sh
+#
 ## We can create the following Dashboards in Kibana:
 
