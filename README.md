@@ -40,4 +40,4 @@ curl -XPUT 'http://localhost:9200/twitter-yyyy.mm.dd' -d '
 ##### - Start the application replaced Twitter credentials in script: start_app.sh
 #
 ## We can create the following Dashboards in Kibana:
-
+<img width="1280" alt="screen shot 2016-01-12 at 23 14 34" src="https://cloud.githubusercontent.com/assets/8615818/12278667/9f9c8840-b982-11e5-9c40-a042b65c8a45.png">
