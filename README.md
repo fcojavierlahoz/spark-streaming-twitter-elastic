@@ -8,7 +8,7 @@
 ### The application was tested with the following technologies:
 ###### Java 1.7
 ###### Hadoop 2.7.1
-###### Spark 1.6
+###### Spark 2.1.0
 ###### Elasticsearch 2.1.0
 ###### Kibana 4.3.0
 #
